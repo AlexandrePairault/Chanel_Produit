@@ -1,5 +1,117 @@
 @media screen and (max-width: 375px) {
-    body {
-      background-color: blue;
+
+    .contenu_carte{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 680px;
     }
+
+    .contenu_image{
+        background-image: url(/images/image-product-mobile.jpg);
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0%;
+    }
+
+    .contenu_textes{
+        width: 90%;
+        margin-left: 5%;
+        height: 400px;
+        background-color: white;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    
+    .titre{
+        margin-top: 7%;
+        margin-left: 5%;
+    }
+    
+    .titre h2{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        font-size: 100%;
+    }
+    
+    .description_parfum{
+        width: 90%;
+        height: 110px;
+        margin-left: 5%;
+        margin-top: -3%;
+    }
+    
+    .description_parfum h1{
+        font-family: 'Fraunces', serif;
+        font-size: 33px;
+    }
+    
+    .sous_description{
+        width: 87%;
+        height: 105px;
+        margin-top: 24px;
+        margin-left: 5%;
+    }
+    
+    .sous_description p{
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        line-height: 2em;
+        margin-top: -18%;
+    }
+    
+    .prix{
+        width: 40%;
+        margin-left: 5%;
+    }
+    
+    .prix h1{
+        font-family: 'Fraunces', serif;
+        font-size: 35px;
+        color: hsl(158, 36%, 37%);
+    }
+    
+    .promo{
+        align-items: center;
+        margin-top: -19%;
+        margin-right: 32%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .promo p{
+        text-decoration: line-through;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .button_achat{
+        background-color: hsl(158, 36%, 37%);
+        font-family: 'Montserrat', sans-serif;
+        width: 90%;
+        height: 50px;
+        margin-top: 5%;
+        margin-left: 5%;
+        border-radius: 10px;
+        border: none;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .button_achat:hover{
+        background-color: hsl(212, 21%, 14%);
+        cursor: pointer;
+    }
+    
+    .button_achat span{
+        padding-left: 5%;
+    }
+    
+   
   }
